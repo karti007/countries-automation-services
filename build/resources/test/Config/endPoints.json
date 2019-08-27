@@ -1,0 +1,5 @@
+{
+	"COUNTRIES_GET_URL": "https://restcountries.eu",
+	"GET_W_NAME_ENDPOINT": "/rest/v2/name",
+	"GET_W_CODE_ENDPOINT": "/rest/v2/alpha"
+}

@@ -1,0 +1,24 @@
+21:04:55.102 request:
+1 > GET https://restcountries.eu/rest/v2/name/Canada
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+
+21:04:55.297 response time in milliseconds: 192.97
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 50ca225a59d0e1d6-ORD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Tue, 27 Aug 2019 01:04:55 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dafd7b08b478607b7a638ca7e5b8699cd1566867895; expires=Wed, 26-Aug-20 01:04:55 GMT; path=/; domain=.restcountries.eu; HttpOnly
+1 < Transfer-Encoding: chunked
+[{"name":"Canada","topLevelDomain":[".ca"],"alpha2Code":"CA","alpha3Code":"CAN","callingCodes":["1"],"capital":"Ottawa","altSpellings":["CA"],"region":"Americas","subregion":"Northern America","population":36155487,"latlng":[60.0,-95.0],"demonym":"Canadian","area":9984670.0,"gini":32.6,"timezones":["UTC-08:00","UTC-07:00","UTC-06:00","UTC-05:00","UTC-04:00","UTC-03:30"],"borders":["USA"],"nativeName":"Canada","numericCode":"124","currencies":[{"code":"CAD","name":"Canadian dollar","symbol":"$"}],"languages":[{"iso639_1":"en","iso639_2":"eng","name":"English","nativeName":"English"},{"iso639_1":"fr","iso639_2":"fra","name":"French","nativeName":"français"}],"translations":{"de":"Kanada","es":"Canadá","fr":"Canada","ja":"カナダ","it":"Canada","br":"Canadá","pt":"Canadá","nl":"Canada","hr":"Kanada","fa":"کانادا"},"flag":"https://restcountries.eu/data/can.svg","regionalBlocs":[{"acronym":"NAFTA","name":"North American Free Trade Agreement","otherAcronyms":[],"otherNames":["Tratado de Libre Comercio de América del Norte","Accord de Libre-échange Nord-Américain"]}],"cioc":"CAN"}]
+
+21:04:55.309 [print] Ottawa

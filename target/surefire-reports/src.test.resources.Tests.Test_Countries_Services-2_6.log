@@ -1,0 +1,24 @@
+21:04:56.863 request:
+1 > GET https://restcountries.eu/rest/v2/alpha/TST
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+
+21:04:57.005 response time in milliseconds: 140.13
+1 < 404
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 50ca22654cd62517-ORD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Length: 36
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Tue, 27 Aug 2019 01:04:57 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc9a99aa9089a74b0faa98a9f8cc698301566867897; expires=Wed, 26-Aug-20 01:04:57 GMT; path=/; domain=.restcountries.eu; HttpOnly
+{"status":404,"message":"Not Found"}
+
+21:04:57.006 abort at feature: src/test/resources/Tests/Test_Countries_Services.feature, scenario: Test for Country Code 'TST', line: 23

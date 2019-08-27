@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.intuit.api.test.runners.CountriesAPIRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="HP" time="0.0">
+  <properties/>
+  <system-out><![CDATA[12:22:52.576 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.586 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.610 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.611 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.691 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.759 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.759 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.766 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.767 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+12:22:52.785 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+---------------------------------------------------------
+feature: src/test/resources/Tests/Test_Countries_Services.feature
+scenarios: 12 | passed: 12 | failed:  0 | time: 2.5344
+---------------------------------------------------------
+HTML report: (paste into browser to view) | Karate version: 0.9.4
+file:/C:/Users/USER/gitrepo/countries-automation-services/build/surefire-reports/src.test.resources.Tests.Test_Countries_Services.html
+---------------------------------------------------------
+
+]]></system-out>
+  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+</testsuite>

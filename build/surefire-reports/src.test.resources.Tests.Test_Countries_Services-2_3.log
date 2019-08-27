@@ -1,0 +1,24 @@
+12:22:54.800 request:
+1 > GET https://restcountries.eu/rest/v2/alpha/CHN
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+
+12:22:54.947 response time in milliseconds: 145.58
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 50cf63148880c53c-ORD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Tue, 27 Aug 2019 16:22:55 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d95a907ef5a050a89a97142ac1da969311566922975; expires=Wed, 26-Aug-20 16:22:55 GMT; path=/; domain=.restcountries.eu; HttpOnly
+1 < Transfer-Encoding: chunked
+{"name":"China","topLevelDomain":[".cn"],"alpha2Code":"CN","alpha3Code":"CHN","callingCodes":["86"],"capital":"Beijing","altSpellings":["CN","Zhōngguó","Zhongguo","Zhonghua","People's Republic of China","中华人民共和国","Zhōnghuá Rénmín Gònghéguó"],"region":"Asia","subregion":"Eastern Asia","population":1377422166,"latlng":[35.0,105.0],"demonym":"Chinese","area":9640011.0,"gini":47.0,"timezones":["UTC+08:00"],"borders":["AFG","BTN","MMR","HKG","IND","KAZ","PRK","KGZ","LAO","MAC","MNG","PAK","RUS","TJK","VNM"],"nativeName":"中国","numericCode":"156","currencies":[{"code":"CNY","name":"Chinese yuan","symbol":"¥"}],"languages":[{"iso639_1":"zh","iso639_2":"zho","name":"Chinese","nativeName":"中文 (Zhōngwén)"}],"translations":{"de":"China","es":"China","fr":"Chine","ja":"中国","it":"Cina","br":"China","pt":"China","nl":"China","hr":"Kina","fa":"چین"},"flag":"https://restcountries.eu/data/chn.svg","regionalBlocs":[],"cioc":"CHN"}
+
+12:22:54.950 [print] Beijing

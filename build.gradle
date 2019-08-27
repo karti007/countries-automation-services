@@ -1,0 +1,28 @@
+buildscript {
+    ext {
+        gradleVersionProperty = '4.1'
+    }
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'com.intuit.karate:karate-junit4:0.9.4'
+    testCompile 'com.intuit.karate:karate-apache:0.9.4'
+}
+
+test {
+    include '**/*CountriesAPIRunner*'
+    systemProperty "karate.options", System.properties.getProperty("karate.options")
+    outputs.upToDateWhen { false }
+}
+
+wrapper {
+    gradleVersion = gradleVersionProperty
+}
